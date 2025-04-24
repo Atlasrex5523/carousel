@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: transparent;
+      overflow: hidden;
+    }
+
+    .carousel-container {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .logo-track {
+      display: flex;
+      width: max-content;
+      animation: scroll 40s linear infinite;
+      align-items: center;
+    }
+
+    .logo-track img {
+      height: 50px;
+      margin: 0 12px;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+    }
+
+    .logo-track img:hover {
+      transform: scale(1.1);
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .logo-track img {
+        height: 40px;
+        margin: 0 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="carousel-container">
+    <div class="logo-track">
+      <!-- Add your logos here -->
+      <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+      <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok">
+      <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="LinkedIn">
+      <img src="https://cdn-icons-png.flaticon.com/512/145/145808.png" alt="Pinterest">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord">
+      <img src="https://cdn-icons-png.flaticon.com/512/906/906343.png" alt="Trello">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968890.png" alt="Slack">
+      <img src="https://cdn-icons-png.flaticon.com/512/906/906361.png" alt="Zapier">
+      <img src="https://cdn-icons-png.flaticon.com/512/888/888853.png" alt="Blogger">
+      <img src="https://cdn-icons-png.flaticon.com/512/888/888897.png" alt="Zoom">
+      <img src="https://cdn-icons-png.flaticon.com/512/2702/2702602.png" alt="Google Suite">
+      <img src="https://yt3.googleusercontent.com/ytc/AOPolaSFLcSVKxEY7xl1UPU_8gJ_y2Ek1-nZq3aSCl1a=s900-c-k-c0x00ffffff-no-rj" alt="Follow Up Boss" style="border-radius: 8px;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Zillow_logo_2021.svg/320px-Zillow_logo_2021.svg.png" alt="Zillow" style="height: 47px;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Redfin_logo.svg/320px-Redfin_logo.svg.png" alt="Redfin" style="height: 47px;">
+      
+      <!-- Repeat for smooth scroll -->
+      <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+      <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok">
+      <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="LinkedIn">
+      <img src="https://cdn-icons-png.flaticon.com/512/145/145808.png" alt="Pinterest">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord">
+      <img src="https://cdn-icons-png.flaticon.com/512/906/906343.png" alt="Trello">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968890.png" alt="Slack">
+      <img src="https://cdn-icons-png.flaticon.com/512/906/906361.png" alt="Zapier">
+      <img src="https://cdn-icons-png.flaticon.com/512/888/888853.png" alt="Blogger">
+      <img src="https://cdn-icons-png.flaticon.com/512/888/888897.png" alt="Zoom">
+      <img src="https://cdn-icons-png.flaticon.com/512/2702/2702602.png" alt="Google Suite">
+      <img src="https://yt3.googleusercontent.com/ytc/AOPolaSFLcSVKxEY7xl1UPU_8gJ_y2Ek1-nZq3aSCl1a=s900-c-k-c0x00ffffff-no-rj" alt="Follow Up Boss" style="border-radius: 8px;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Zillow_logo_2021.svg/320px-Zillow_logo_2021.svg.png" alt="Zillow" style="height: 47px;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Redfin_logo.svg/320px-Redfin_logo.svg.png" alt="Redfin" style="height: 47px;">
+    </div>
+  </div>
+</body>
+</html>
